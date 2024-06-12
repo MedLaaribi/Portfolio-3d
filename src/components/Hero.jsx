@@ -6,9 +6,9 @@ const Hero = () => {
         <>
             <section className="relative w-full h-screen mx-auto bg-primary">
 
-                <div className="relative w-full h-screen mt-1 flex justify-center items-center">
-                    <div className="relative w-full max-w-7xl mx-auto h-5/6 bg-cover bg-center rounded-lg"
-                         style={{backgroundImage: "url('/StadtImage.webp')"}}>
+                <div className="relative w-full h-screen mt-1 pt-4 flex justify-center items-center">
+                    <div className="relative w-full max-w-7xl mx-auto h-5/6 bg-cover bg-center rounded-lg overflow-hidden"
+                         style={{ backgroundImage: "url('/StadtImage.webp')", borderRadius: '2rem' }}>
                         <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
                     </div>
                 </div>
@@ -34,7 +34,6 @@ const Hero = () => {
                     </div>
                 </div>
 
-
                 <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-20">
                     <a href="#about">
                         <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
@@ -47,8 +46,6 @@ const Hero = () => {
                     </a>
                 </div>
             </section>
-
-
         </>
     );
 };
