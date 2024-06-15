@@ -7,6 +7,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export {
   Navbar,
@@ -17,7 +18,8 @@ export {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  StarsCanvas
-}
+  EarthCanvas,
+  BallCanvas,
+  StarsCanvas,
+  Footer
+};
