@@ -8,21 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   meta,
-
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
-
 } from "../assets";
+import dynaskills from "../assets/company/dynaskills.png";
+import freelance from "../assets/company/freelance.jpg";
 
 export const navLinks = [
   {
@@ -80,10 +79,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -108,10 +103,27 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
+    title: "MERN Stack Developer",
+    company_name: "Freelance",
+    icon:freelance ,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - Feb 2023",
+    points: [
+      "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Collaborated with cross-functional teams, including designers and product managers, to create high-quality products.",
+      "Implemented responsive designs and ensured cross-browser compatibility.",
+      "Built and integrated RESTful APIs and managed databases with MongoDB to optimize backend performance.",
+    ],
+  },
+
+
+
+    {
     title: "React.js Developer",
     company_name: "Dynaskills",
-
+    icon: dynaskills ,
     iconBg: "#383E56",
     date: "March 2024 - present",
     points: [
@@ -120,21 +132,11 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
 
     ],
+
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
+];
+
+ /* {
     title: "Web Developer",
     company_name: "Shopify",
     icon: shopify,
@@ -160,7 +162,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-];
+];*/
 
 const testimonials = [
   {
