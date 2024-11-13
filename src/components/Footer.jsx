@@ -17,7 +17,7 @@ const Footer = () => {
                     <h3 className={`${styles.sectionHeadText}`}>Connect with me</h3>
                     <div className="flex space-x-4">
                         <a
-                            href="https://www.linkedin.com/in/your-profile"
+                            href="https://www.linkedin.com/in/med-laaribi/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white hover:text-blue-600 transition-colors duration-300"
